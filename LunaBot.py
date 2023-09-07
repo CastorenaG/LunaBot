@@ -5,7 +5,7 @@ import datetime
 import youtube_dl
 import random
 
-token = '************************************'
+token = '************************************' #mytoken
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!', intents=intents)
